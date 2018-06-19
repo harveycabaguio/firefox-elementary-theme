@@ -1,4 +1,7 @@
 #An elementary Theme for Firefox Quantum
+
+![Screenshot](screenshot@2x.png)
+
 This userChrome.css mimics the [elementary GTK+ theme](https://github.com/elementary/stylesheet) to make firefox blend in better in elementary OS.
 
 ## How to use
