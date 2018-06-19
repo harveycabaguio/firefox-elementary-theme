@@ -1,4 +1,4 @@
-#An elementary Theme for Firefox Quantum
+# An elementary Theme for Firefox Quantum
 
 ![Screenshot](screenshot@2x.png)
 
