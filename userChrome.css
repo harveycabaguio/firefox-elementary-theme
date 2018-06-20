@@ -323,6 +323,14 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   margin-top: unset !important;
 }
 
+#tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
+  position: unset !important;
+  margin-inline-start: unset !important;
+}
+#tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] > .tab-stack {
+  border-inline-end: none !important;
+}
+
 /*
  * Menubar
  */
