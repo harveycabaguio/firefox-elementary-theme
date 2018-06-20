@@ -4,7 +4,11 @@
 
 This userChrome.css mimics the [elementary GTK+ theme](https://github.com/elementary/stylesheet) to make firefox blend in better in elementary OS.
 
-## How to use
+## How to install
+### Terminal
+1. Run the following command in a terminal: `curl https://git.io/fYMYZ -o "$HOME/.mozilla/firefox/$( cat $HOME/.mozilla/firefox/profiles.ini | grep -oP '(?<=Path=).*' )/chrome/userChrome.css" -sLS --create-dirs`
+2. Restart Firefox
+### Manual
 1. Go to [about:support](about:support) in Firefox
 2. Application Basics > Profile Directory > Open Directory
 3. Create a folder named `chrome`
