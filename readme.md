@@ -6,8 +6,9 @@ This userChrome.css mimics the [elementary GTK+ theme](https://github.com/elemen
 
 ## How to install
 ### Terminal
-1. Run the following command in a terminal: `curl https://git.io/fYMYZ -o "$HOME/.mozilla/firefox/$( cat $HOME/.mozilla/firefox/profiles.ini | grep -oP '(?<=Path=).*' )/chrome/userChrome.css" -sLS --create-dirs`
-2. Restart Firefox
+```shell
+curl https://git.io/fYMYZ -o "$HOME/.mozilla/firefox/$( cat $HOME/.mozilla/firefox/profiles.ini | grep -oP '(?<=Path=).*' )/chrome/userChrome.css" -sLS --create-dirs
+```
 ### Manual
 1. Go to [about:support](about:support) in Firefox
 2. Application Basics > Profile Directory > Open Directory
