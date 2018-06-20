@@ -283,9 +283,6 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
 #TabsToolbar tab:hover .tab-close-button {
   opacity: 1 !important;
 }
-#TabsToolbar tab .close-icon {
-  -moz-image-region: unset !important;
-}
 #TabsToolbar tab .close-icon:hover {
   -moz-image-region: unset !important;
   background-color: rgba(0,0,0,0.1) !important;
@@ -378,7 +375,7 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
  */
 menupopup {
   -moz-appearance: none !important;
-  background: white !important;
+  background: #ffffff !important;
   border-radius: 4px !important;
   border: 1px solid rgba(0,0,0, 0.35) !important;
   box-shadow:
@@ -386,7 +383,7 @@ menupopup {
               0 2px 4px 0 rgba(0,0,0, 0.12) !important;
 }
 .panel-arrowcontent {
-  background: rgba(0,0,0, 0.175) !important; /* border */
+  background: #ffffff !important;
   border-radius: 4px !important;
   box-shadow:
               0 1px 2px 0 rgba(0,0,0, 0.12),
