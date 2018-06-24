@@ -175,6 +175,7 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   padding-inline-start: 0 !important; /*Remove extra tab bar space*/
 
   margin: 0 !important;
+  padding: 0 !important;
   max-height: 30px !important;
   min-height: 30px !important;
   width: 100vw !important;
@@ -221,6 +222,9 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   border-top-left-radius: 4px !important;
   border-top-right-radius: 4px !important;
   box-shadow: 0 0 1px 1px rgba(0,0,0, 0.1) !important;
+}
+.tab-background {
+  border-top: 0 !important;
 }
 .tab-background[selected="true"] {
   background-attachment: none !important;
