@@ -212,10 +212,16 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   border-right: 1px solid transparent !important;
   border-image: linear-gradient(to bottom, transparent, rgba(0,0,0, 0.1)) 1 !important;
 }
+
 .tabbrowser-tab:after {
-  display: none !important; /* don't show border between tabs */
+  /* display: none !important; /* don't show border between tabs  */
+  border: none !important;
 }
-.tabbrowser-tab[visuallyselected="true"] {
+
+.tabbrowser-tab[selected="true"] {
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+
   border-top: 1px solid none !important;
   border-left: 1px solid #898989 !important;
   border-right: 1px solid #898989 !important;
@@ -225,6 +231,12 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
 }
 .tab-background {
   border-top: 0 !important;
+}
+.tabbrowser-tab[selected="true"]:first-child {
+  margin-left: 6px !important;
+}
+.tabbrowser-tab[selected="true"]:last-child {
+  margin-right: 6px !important;
 }
 .tab-background[selected="true"] {
   background-attachment: none !important;
@@ -236,6 +248,38 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
         inset 0 -1px 0 0 rgba(255,255,255, 0.2),
         inset 1px 0 0 0 rgba(255,255,255, 0.2),
         inset -1px 0 0 0 rgba(255,255,255, 0.2) !important;
+}
+/* flared tab */
+.tabbrowser-tab[selected="true"]:before,
+.tabbrowser-tab[selected="true"]:after {
+  position: absolute !important;
+  bottom: -1px !important;
+  width: 6px !important;
+  height: 6px !important;
+
+  border: 1px solid #898989 !important;
+
+  content: " ";
+}
+.tabbrowser-tab[selected="true"]:before {
+  left: -7px !important;
+  bottom: -5px !important;
+
+  border-bottom-right-radius: 6px !important;
+  border-width: 0 1px 1px 0 !important;
+  box-shadow: 
+              1px 1px 0 0 rgba(255,255,255, 0.2),
+              2px 2px 0 0 #c7c7c7 !important;
+  opacity: 1 !important;
+}
+.tabbrowser-tab[selected="true"]:after {
+  right: -7px !important;
+
+  border-bottom-left-radius: 6px !important;
+  border-width: 0 0 1px 1px !important;
+  box-shadow: 
+              -1px 1px 0 0 rgba(255,255,255, 0.2),
+              -2px 2px 0 0 #c7c7c7 !important;
 }
 #new-tab-button .toolbarbutton-icon {
   list-style-image: url("data:image/svg+xml,%3Csvg height='16' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cg color='%235b5b5b' transform='translate%28-293 -117%29'%3E%3Cpath d='M300 120v4h-4v2h4v4h2v-4h4v-2h-4v-4z' fill='%235b5b5b' overflow='visible' style='marker:none'/%3E%3C/g%3E%3C/svg%3E") !important;
