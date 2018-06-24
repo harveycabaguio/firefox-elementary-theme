@@ -233,40 +233,6 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
         inset 1px 0 0 0 rgba(255,255,255, 0.2),
         inset -1px 0 0 0 rgba(255,255,255, 0.2) !important;
 }
-/* flare out tab */
-/*
-.tabbrowser-tab[visuallyselected="true"]:before,
-.tabbrowser-tab[visuallyselected="true"]:after {
-  position: absolute !important;
-  bottom: -1px !important;
-  width: 6px !important;
-  height: 6px !important;
-
-  border: 1px solid #898989 !important;
-
-  content: " ";
-}
-.tabbrowser-tab[visuallyselected="true"]:before {
-  left: -7px !important;
-  bottom: -5px !important;
-
-  border-bottom-right-radius: 6px !important;
-  border-width: 0 1px 1px 0 !important;
-  box-shadow: 
-              1px 1px 0 0 rgba(255,255,255, 0.2),
-              2px 2px 0 0 #c7c7c7 !important;
-  opacity: 1 !important;
-}
-.tabbrowser-tab[visuallyselected="true"]:after {
-  right: -7px !important;
-
-  border-bottom-left-radius: 6px !important;
-  border-width: 0 0 1px 1px !important;
-  box-shadow: 
-              -1px 1px 0 0 rgba(255,255,255, 0.2),
-              -2px 2px 0 0 #c7c7c7 !important;
-}
-*/
 #new-tab-button .toolbarbutton-icon {
   list-style-image: url("data:image/svg+xml,%3Csvg height='16' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cg color='%235b5b5b' transform='translate%28-293 -117%29'%3E%3Cpath d='M300 120v4h-4v2h4v4h2v-4h4v-2h-4v-4z' fill='%235b5b5b' overflow='visible' style='marker:none'/%3E%3C/g%3E%3C/svg%3E") !important;
   filter: drop-shadow(0 1px 0 rgba(255,255,255, 0.4)) !important;
