@@ -223,6 +223,9 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   border-top-right-radius: 4px !important;
   box-shadow: 0 0 1px 1px rgba(0,0,0, 0.1) !important;
 }
+.tab-background {
+  border-top: 0 !important;
+}
 .tab-background[selected="true"] {
   background-attachment: none !important;
   background: linear-gradient(to bottom, #d1d1d1, #c7c7c7) !important;
