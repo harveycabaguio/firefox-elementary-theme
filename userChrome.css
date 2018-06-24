@@ -175,6 +175,7 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   padding-inline-start: 0 !important; /*Remove extra tab bar space*/
 
   margin: 0 !important;
+  padding: 0 !important;
   max-height: 30px !important;
   min-height: 30px !important;
   width: 100vw !important;
@@ -228,11 +229,16 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
   border-top-right-radius: 4px !important;
   box-shadow: 0 0 1px 1px rgba(0,0,0, 0.1) !important;
 }
+<<<<<<< HEAD
 .tabbrowser-tab[selected="true"]:first-child {
   margin-left: 6px !important;
 }
 .tabbrowser-tab[selected="true"]:last-child {
   margin-right: 6px !important;
+=======
+.tab-background {
+  border-top: 0 !important;
+>>>>>>> 0c569bc501ceacf1d9d7ee444972da01d94d2cb1
 }
 .tab-background[selected="true"] {
   background-attachment: none !important;
