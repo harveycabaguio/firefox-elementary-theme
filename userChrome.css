@@ -71,7 +71,7 @@
   display: none !important; /* remove this weird extra separator mozilla tacks on before the page content */
 }
 #nav-bar{
-  -moz-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 0;
   height: 47px !important;
   padding: 0 45px !important;
 
@@ -126,6 +126,9 @@ toolbar .toolbarbutton-1 > .toolbarbutton-badge-stack {
   height: 28px !important;
   padding: 6px !important;
   margin-right: 6px !important;
+  border: 0 !important;
+  border-radius: 50% !important;;
+  background: 0 !important;
   filter: drop-shadow(0 1px 0 var(--custom-text-shadow)) !important;
 }
 toolbar .toolbarbutton-1:hover > .toolbarbutton-icon {
@@ -299,6 +302,7 @@ toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
  * Menubar
  */
 #toolbar-menubar {
+  -moz-box-ordinal-group: 1;
   margin: 0 !important;
   padding: 0 !important;
 
