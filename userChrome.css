@@ -135,7 +135,8 @@ toolbar .toolbarbutton-1:hover > .toolbarbutton-icon {
   background: none !important;
   box-shadow: none !important;
 }
-toolbar .toolbarbutton-1:active > .toolbarbutton-icon {
+toolbar .toolbarbutton-1:active > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:active > .toolbarbutton-badge-stack {
   background: rgba(51, 51, 51, .15) !important;
 }
 /* keep default icons small
