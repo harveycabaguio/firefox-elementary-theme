@@ -38,7 +38,8 @@
   direction: rtl;
 }
 #titlebar-close,
-#titlebar-max {
+#titlebar-max,
+#titlebar-min {
   pointer-events: auto !important; /* clickable */
 }
 
